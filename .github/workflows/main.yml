@@ -35,9 +35,6 @@ jobs:
     - name: Compile Css and Js Assets
       run: npm run build
       
-    - name: Create symlink to public
-      run: ln -s ./public ./public_html
-      
     - name: Create Database
       run: |
         mkdir -p database
