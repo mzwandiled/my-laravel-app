@@ -40,7 +40,7 @@ jobs:
 
       env:
         DB_CONNECTION: mysql
-        DB_HOST: localhost
+        DB_HOST: eivor
         DB_PORT: 3306
         DB_DATABASE: logicore_yowza
         DB_USERNAME: logicore_admin
